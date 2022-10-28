@@ -1,0 +1,14 @@
+* source LAP 1 ( FREQUENCY RESPONSE )
+R_R2         0 N16715  13k TC=0,0 
+R_RS         IN N16783  50 TC=0,0 
+C_C3         N16783 N16715  10u  TC=0,0 
+R_RC         N16725 N16719  2.9K TC=0,0 
+V_V2         IN 0  AC 1
++SIN 0 10u 10K 0 0 0
+C_C1         0 N16729  10u  TC=0,0 
+V_V1         0 N16719 12
+Q_Q1         N16725 N16715 N16729 Q2N2222
+R_RE         0 N16729  930 TC=0,0 
+C_C2         N16725 OUT  10u  TC=0,0 
+R_R1         N16715 N16719  50K TC=0,0 
+R_RL         0 OUT  4.7K TC=0,0 

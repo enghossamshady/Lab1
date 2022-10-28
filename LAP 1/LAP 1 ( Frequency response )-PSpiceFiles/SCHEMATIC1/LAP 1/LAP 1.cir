@@ -1,0 +1,19 @@
+** Profile: "SCHEMATIC1-LAP 1"  [ C:\Cadence\SPB_16.6\tools\capture\LAP 1 ( Frequency response )-PSpiceFiles\SCHEMATIC1\LAP 1.sim ] 
+
+** Creating circuit file "LAP 1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Halim\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 4 1 10k
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
